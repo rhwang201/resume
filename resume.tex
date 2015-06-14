@@ -1,0 +1,102 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res}
+
+% Changed margins to fit things
+\addtolength{\oddsidemargin}{-.3in}
+\addtolength{\evensidemargin}{-.3in}
+\addtolength{\textwidth}{0.6in}
+
+\addtolength{\topmargin}{-.2in}
+\addtolength{\textheight}{0.4in}
+
+\begin{document}
+\name{Richard Hwang}
+\address{673 Brannan Street Unit 315, San Francisco CA 94107}
+\address{(973) 647-5056 $|$ richard.hwang201@gmail.com}
+
+\begin{resume}
+\section{EDUCATION}
+{\bf University of California, Berkeley} \hfill {\small May 2014}\\
+{\sl Bachelor of Science,} Electrical Engineering and Computer Science \hfill GPA: 3.574
+
+\section{RELEVANT \\ COURSEWORK}
+SICP, Data Structures, Machine Structures, Discrete Math and Probability,
+Calculus, Linear Algebra, Networking, Security, Compilers, Algorithms,
+Artificial Intelligence, Machine Learning, Computer Vision*, Behavioral Data Mining,
+Feedback Control Systems*, Quantum Mechanics \\
+{\small \textasteriskcentered \  Fall 2013 coursework.}
+
+\section{EXPERIENCE}
+{\bf Applications Developer} \hfill {\small July 2014 - Present} \\
+{\it C3 Energy}
+\begin{itemize} \itemsep -1pt
+  \item Foo 
+\end{itemize}
+
+{\bf Avionics Software Intern} \hfill {\small May 2013 - August 2013} \\
+{\it Space Exploration Technologies}
+\begin{itemize} \itemsep -1pt
+  \item Developed a tool to help REs analyze telemetry as frequencies across all
+      similar tests.
+  \item Implemented grouping for telemetry metadata database and front-end visualization.
+\end{itemize}
+
+{\bf Teaching Assistant} \hfill {\small Jan 2013 - Present} \\
+{\it EECS UC Berkeley}
+\begin{itemize}  \itemsep -1pt
+  \item Lead two labs and discussions for Structure and Interpretation
+      of Computer Programs.
+  \item Hold office hours and review sessions, and write homeworks, labs,
+      discussions, exams.
+\end{itemize}
+
+{\bf Software Engineering Intern} \hfill {\small May 2012 - August 2012} \\
+{\it Linkedin}
+\begin{itemize}  \itemsep -1pt
+  \item Wrote a Python automated test framework for mobile i18n translations.
+  \item Created auto-deployment for tablet server with mentor and co-intern in Python.
+  \item Hacked an internal employee route finder using Neo4j Graph DB and Ruby on Rails.
+\end{itemize}
+
+\section{PROJECTS}
+{\bf Some Artificial Intelligence Projects}
+\begin{itemize} \itemsep - 1pt
+  \item Implemented "Tour Into the Picture", generating all camera views from
+    a single picture using homographies, under simplified room assumptions.
+  \item Reconstructed 3d object from two pictures with different viewpoints.
+  \item Created a classifier that could determine the dominant texture of an image.
+  \item Implemented linear regression with s.g.d on one million Amazon reviews.
+  \item Implemented decision trees, random forests, and AdaBoost for spam
+      classification.
+  \item Analyzed political content on Weibo and clustered to find most
+      influential users.
+  \item Generated eigenfaces using PCA to quickly find similar faces amongst
+      students and celebs.
+\end{itemize}
+
+{\bf Compiler for Python-like Language}
+\begin{itemize} \itemsep - 1pt
+  \item Wrote a lexer and parser for a statically-typed Python-like language,
+      using Bison and Flex.
+  \item Performed type inference and semantic rewrites of the abstract
+      syntax tree.
+  \item Generated code in C++, dealing with Python specific features, such as
+      dicts, closures, etc.
+\end{itemize}
+
+\section{COMPUTER \\ SKILLS}
+{\sl{\bf Languages \& Tools}: }Python, Matlab, Java, C, Javascript, Git,
+    Vim, \LaTeX \\
+{\sl{\bf Operating Systems}:} OS X, Linux, Windows.
+
+\section{ACTIVITIES}
+Industrial Relations Chair, {\it HKN - EECS Honor Society}
+    \hfill {\small January 2012 - December 2012}\\
+Organized infosessions, tech talks, and other events between software companies and students.
+
+Emergency Medical Technician, {\it Parsippany Volunteer Ambulance Squad}
+    \hfill {\small January 2008 - August 2013}\\
+Assessed, treated, and transported patients during 12-hour and 24-hour shifts.
+
+\end{resume}
+\end{document}
